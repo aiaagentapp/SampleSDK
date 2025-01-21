@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     # change the source location
-    s.source            = { :http => 'http://localhost:8080/XCFrameworkTest.zip' } 
+    s.source            = { :http => 'https://github.com/aiaagentapp/SampleSDK.git' } 
     s.ios.deployment_target = '16.0'
     s.ios.vendored_frameworks = 'SampleSDK.xcframework' # Your XCFramework
     s.dependency 'Alamofile', '5.10.2' # Third Party Dependency
