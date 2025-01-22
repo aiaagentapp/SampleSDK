@@ -1,0 +1,256 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SampleSDK",
+    "printedName": "SampleSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SampleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "SampleSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK",
+        "printedName": "SDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "test1",
+            "printedName": "test1",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SampleSDK.SDK.Type) -> SampleSDK.SDK",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDK",
+                    "printedName": "SampleSDK.SDK",
+                    "usr": "s:9SampleSDK0B0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SampleSDK.SDK.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDK",
+                        "printedName": "SampleSDK.SDK",
+                        "usr": "s:9SampleSDK0B0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SampleSDK0B0O5test1yA2CmF",
+            "mangledName": "$s9SampleSDK0B0O5test1yA2CmF",
+            "moduleName": "SampleSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "test2",
+            "printedName": "test2",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SampleSDK.SDK.Type) -> SampleSDK.SDK",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDK",
+                    "printedName": "SampleSDK.SDK",
+                    "usr": "s:9SampleSDK0B0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SampleSDK.SDK.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDK",
+                        "printedName": "SampleSDK.SDK",
+                        "usr": "s:9SampleSDK0B0O"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9SampleSDK0B0O5test2yA2CmF",
+            "mangledName": "$s9SampleSDK0B0O5test2yA2CmF",
+            "moduleName": "SampleSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SampleSDK.SDK?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDK",
+                    "printedName": "SampleSDK.SDK",
+                    "usr": "s:9SampleSDK0B0O"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9SampleSDK0B0O8rawValueACSgSS_tcfc",
+            "mangledName": "$s9SampleSDK0B0O8rawValueACSgSS_tcfc",
+            "moduleName": "SampleSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SampleSDK0B0O8rawValueSSvp",
+            "mangledName": "$s9SampleSDK0B0O8rawValueSSvp",
+            "moduleName": "SampleSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SampleSDK0B0O8rawValueSSvg",
+                "mangledName": "$s9SampleSDK0B0O8rawValueSSvg",
+                "moduleName": "SampleSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9SampleSDK0B0O",
+        "mangledName": "$s9SampleSDK0B0O",
+        "moduleName": "SampleSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/yuheng.chook\/Desktop\/Project\/Playground\/SampleSDK\/SampleSDK\/SampleSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 7,
+      "value": "\"test1\""
+    },
+    {
+      "filePath": "\/Users\/yuheng.chook\/Desktop\/Project\/Playground\/SampleSDK\/SampleSDK\/SampleSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 7,
+      "value": "\"test2\""
+    }
+  ]
+}
