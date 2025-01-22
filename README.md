@@ -1,5 +1,3 @@
-# README.md
-
 ## Steps to Create and Distribute XCFramework with Required 3rd Party Libraries
 
 ### 1. Create Project
